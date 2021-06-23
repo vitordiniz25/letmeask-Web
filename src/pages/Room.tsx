@@ -7,6 +7,7 @@ import { useState, FormEvent } from 'react';
 import { useAuth } from '../hooks/useAuth';
 import { database } from '../services/firebase';
 import { useEffect } from 'react';
+import { Question } from '../components/Question/index'
 
 type RoomParams = {
     id: string;
@@ -123,7 +124,16 @@ export function Room() {
                     </div>
                 </form>
 
-                {JSON.stringify(questions)}
+                <div className="question-list">
+                    {questions.map(question => {
+                        return (
+                            <Question
+                                content={question.content}
+                                author={question.author}
+                            />
+                        )
+                    })}
+                </div>
             </main>
         </div>
     );
