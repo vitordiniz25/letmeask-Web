@@ -1,6 +1,6 @@
 React + firebase application developed in the NLW 06 - Together
 
-#Test it yourself!
+Test it yourself!
 https://letmeask-d8939.web.app
 
 # Getting Started with Create React App
