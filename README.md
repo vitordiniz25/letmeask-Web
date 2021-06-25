@@ -1,5 +1,8 @@
 React + firebase application developed in the NLW 06 - Together
 
+#Test it yourself!
+https://letmeask-d8939.web.app
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
